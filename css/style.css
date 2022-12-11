@@ -72,3 +72,34 @@
 .button:active {
     transform: scale(1.01);
 }
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        width: 320px;
+        min-height: 300px;
+    } 
+    
+    .input_wrapper {
+        width: 320px;
+    }
+
+    .message_wrapper{
+        width: 310px;
+        min-height: 300px;
+    }
+
+    .message {
+        max-width: 250px;
+    }
+
+    .input {
+        width: 200px;
+    }
+
+    .button {
+        display: block;
+        width: 40px;
+        font-size: 7px;
+    }
+
+}
