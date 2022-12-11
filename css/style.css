@@ -74,7 +74,7 @@
     transform: scale(1.01);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .wrapper {
         width: 320px;
         min-height: 300px;
