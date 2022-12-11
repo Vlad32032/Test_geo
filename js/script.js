@@ -46,8 +46,9 @@ websocket.onerror = function(evt) {
 function success(position) {
     // добавляем сообщение в чат со ссылкой
     messageWrapper.innerHTML += `<a class="message in_message map_link" target="_blank" href=""></a>`
-    // сохраняем в переменную ноду для сообщения с геолокацией 
+    // сохраняем в переменную ноду для сообщения с геолокацией и ссылкой
     mapLink = document.querySelector(".map_link");
+    statusGeo = document.querySelector(".status");
 
     // создаем переменные для широты и долготы
     const latitude = position.coords.latitude;
